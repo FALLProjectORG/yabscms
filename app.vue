@@ -1,16 +1,18 @@
 <template>	
 	<div id="app">
-		<h1>My Todo App!</h1>
-		<p> {{ data }} </p>
-		<header>
-			{data.header.text}
-		</header>
+		<header v-html="marked(data.header.text)"></header>
+		<main v-for="post in data.posts" :key="post.title">
+			<a :href="'posts' + post.url">{{ post.title }}</a>
+			<img :src="post.image">
+		</main>
+		<footer></footer>
 	</div>
 </template>
 
 <script>
+import marked from "marked"
 export default {
-	props: ["data"]
+	props: ["data"],
 }
 </script>
 

@@ -1,10 +1,10 @@
 {
-  "name": "poidb",
+  "name": "YABSCMS",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "poi"
   },
   "author": "SimplyCodin",
   "license": "MIT",
@@ -12,6 +12,7 @@
     "templateCompiler": true
   },
   "dependencies": {
+    "marked": "^0.3.12",
     "poi": "^9.6.10"
   }
 }
