@@ -1,17 +1,16 @@
 <template lang="pug">	
 	#app
-		header(v-html="marked(data.header.text)")
+		header(v-html="$md(data.header.text)")
 		main.yabs-home
 			post(v-for="post in data.posts" :key="post.title" :post="post")
 		footer
 </template>
 
 <script>
-	import marked from "marked"
 	import post from "@/postPreview.vue"
 	export default {
 		props: ["data"],
-		components: { post }
+		components: { post },
 	}
 </script>
 

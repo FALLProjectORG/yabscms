@@ -3794,9 +3794,11 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-marked@^0.3.12:
-  version "0.3.12"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-0.3.12.tgz#7cf25ff2252632f3fe2406bde258e94eee927519"
+marked3@^0.5.2:
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/marked3/-/marked3-0.5.2.tgz#4570728cc4b58afb253e72aeb2a5acde1fc96f51"
+  dependencies:
+    slugo "^0.2.1"
 
 math-expression-evaluator@^1.2.14:
   version "1.2.17"
@@ -4546,9 +4548,9 @@ poi-webpack-node-externals@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/poi-webpack-node-externals/-/poi-webpack-node-externals-2.0.0.tgz#3e23ae0673705f5f44b23ecd194b85c724de91fa"
 
-poi@^9.6.10:
-  version "9.6.12"
-  resolved "https://registry.yarnpkg.com/poi/-/poi-9.6.12.tgz#a97bef16be6d20b042639d654029ed4468cf6f4e"
+poi@^9.6.13:
+  version "9.6.13"
+  resolved "https://registry.yarnpkg.com/poi/-/poi-9.6.13.tgz#7ef137f6a863a93d1c1ffc7f17f3a9f588aa847d"
   dependencies:
     "@types/webpack" "^3.8.2"
     "@types/webpack-chain" "^4.0.0"
@@ -5691,6 +5693,10 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
 slash@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/slash/-/slash-1.0.0.tgz#c41f2f6c39fc16d1cd17ad4b5d896114ae470d55"
+
+slugo@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/slugo/-/slugo-0.2.1.tgz#a44bb2c6a72a8921888b08fc18e3181e9dd7df8e"
 
 snapdragon-node@^2.0.1:
   version "2.1.1"
